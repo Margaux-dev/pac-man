@@ -251,7 +251,7 @@ footer{
 	color : rgba(175,255,228,1.00);
 	width: 100%;
 	position: absolute;
-	bottom: 0.8%; 
+	bottom: 0%; 
 	display: flex;
 	justify-content:center;
 	align-items: baseline;
