@@ -20,13 +20,16 @@ h2{
 	text-shadow: 1.5px 1.5px 0 rgba(239,0,0,1.00);;
 }
 
-p{
+#computer{
 	margin-bottom: 35px;
 	color: rgb(246, 184, 30);
 	font-size: 20px;
 	font-weight: lighter;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 0 rgba(239,0,0,1.00);
+}
+#mobile{
+	display: none;
 }
 
 kbd{
@@ -260,9 +263,19 @@ footer{
 
 /* RESPONSIVE */
 @media screen and (max-width: 1024px){
-	p{
+	#computer{
 		color: transparent;
 		text-shadow: none;
+	}
+	#mobile{
+		display: block;
+		margin: -20px auto -5px auto;
+		color: rgb(246, 184, 30);
+		font-size: 20px;
+		font-weight: lighter;
+		text-align: center;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 0 rgba(239,0,0,1.00);
 	}
 }
 @media screen and (max-width: 670px){
@@ -276,8 +289,12 @@ footer{
 		margin: -20px auto 20px auto;
 		font-size: 20px;
 	}
-	p{
+	#computer{
 		display: none;
+	}
+	#mobile{
+		margin: -10px auto -5px auto;
+		font-size: 15px;
 	}
 	#play, .gameOver, .won{
 	margin-top: 13px;
