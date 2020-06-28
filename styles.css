@@ -293,7 +293,7 @@ footer{
 		display: none;
 	}
 	#mobile{
-		margin: -10px auto -5px auto;
+		margin: -10px 5px -5px 5px;
 		font-size: 15px;
 	}
 	#play, .gameOver, .won{
